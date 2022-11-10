@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if ! [ -e "/opt/steamapps/common/Team Fortress 2/tf/" ]; then
+	echo "Please start catbots using ./start to mount /opt/steamapps!"
+	exit
+fi
+
+nano /opt/steamapps/common/'Team Fortress 2'/tf/casual_criteria.vdf
